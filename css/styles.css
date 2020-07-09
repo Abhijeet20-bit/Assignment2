@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	background-color: #9A7D0A; 
+}
+
+/** Header **/
+#header-nav{
+	background-color: #8E44AD;
+	border-radius: 0px;
+	border: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.navbar-brand{
+	padding-top: 10px;
+}
+
+.navbar-brand h1{
+	color:#17202A;
+	font-size: 1.8em;
+	margin-top: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+#nav-list{
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+#nav-list a{
+	color: #130604;
+}
+.icon-bar{
+	background-color: white;
+}
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+#nav-list a:hover{
+	background-color: #F4F6F7;
+}
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	display: block;
+}
+h2{
+	text-align: center;
+	color: #7B241C;
+	font-size: 30px;
+}
+.row{
+	width: 100%;
+}
+
+.row section{
+	background-color: grey;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid yellow;
+}
+
+section h3{
+	color: #13F90A;
+	text-align: center;
+}
+
+.row p{
+	color: #000;
+}
+
+.row p a{
+	color:#A04000;
+}
